@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <title>URL Shortener - EntropyDev</title>
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <form method="POST">
+        <input type="url" name="long_url" placeholder="Inserisci URL da abbreviare" required style="width:300px;">
+        <button type="submit">Genera URL corto</button>
+    </form>
+    {% if short_url %}
+        <p>URL corto generato: <a href="{{ short_url }}" target="_blank">{{ short_url }}</a></p>
+    {% endif %}
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
