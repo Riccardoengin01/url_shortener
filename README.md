@@ -44,6 +44,12 @@ python app.py
 
 ---
 
+🌐 Provalo online / Try it online
+- Direttamente da browser tramite Render:
+https://url-shortener-ez7q.onrender.com
+
+---
+
 ## ✨ Funzionalità / Features
 
 - 🔐 Generazione casuale short-code  
