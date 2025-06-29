@@ -1,2 +1,2 @@
-Flask==2.2.2
+Flask==2.2.5
 qrcode[pil]==7.4.2

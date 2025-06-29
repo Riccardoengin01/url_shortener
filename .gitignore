@@ -1,1 +1,5 @@
-url_shortener.db
+__pycache__/
+*.pyc
+*.db
+*.png
+venv/

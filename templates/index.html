@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>URL Shortener</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <p><a href="{{ short_url }}" target="_blank">{{ short_url }}</a></p>
 
         <h3>QR Code:</h3>
-        <img src="{{ qr_src }}" alt="QR Code">
+        <img src="{{ qr_src }}" alt="QR Code" width="200">
     {% endif %}
 
     {% if error %}
