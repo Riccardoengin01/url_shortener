@@ -32,6 +32,9 @@ def get_long_url(short_code):
         return result[0] if result else None
 
 def generate_qr_code(data, filename):
+    # Crea la cartella "static" se non esiste
+    os.makedirs("static", exist_ok=True)
+
     img = qrcode.make(data)
     path = os.path.join("static", filename)
     img.save(path)
